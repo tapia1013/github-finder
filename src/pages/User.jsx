@@ -15,6 +15,7 @@ function User() {
   useEffect(() => {
     getUser(params.login);
     getUserRepos(params.login)
+    //eslint-diable-next-line react-hooks/exhaustive-deps
   }, []);
 
 
